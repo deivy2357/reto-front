@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #eef0f2;
+}
+
+.menu { 
+    padding: 1em 2em ;
+    margin: 0;
+    text-align: end;
+    background: #271f30;
+}
+
+.menu .item-menu{
+    display: inline-block;
+    margin: 2px;
+    padding: .2em 1em ;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.item-menu:hover{
+    color: #ccc;
+    background: #eef0f222;
+}
+
+.active{
+    background: #846a6a;
+}
+
+.not-found{
+    padding: 1em;
+    text-align: center;
+}
+.not-found img{
+    width: 100%;
+    max-width: 600px;
+}
