@@ -2,7 +2,6 @@ import { Box, Grid, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import TableCustomers from "../components/TableCustomers";
 import { getAge } from "../providers/customers";
-import { getAll as getCustomers } from "../providers/customers";
 
 const ListCustomer = () => {
   const [edad, setEdad] = useState<number | null>(null);
