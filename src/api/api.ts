@@ -1,3 +1,3 @@
-const API_CUSTOMER: string = "http://localhost:8000/cliente";
+const API_CUSTOMER: string = "https://reto-api-clientes.herokuapp.com/cliente";
 
 export { API_CUSTOMER };
